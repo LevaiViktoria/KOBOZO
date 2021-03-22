@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timberpolis</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="icon" href="kepek/favicon.png" type="image/gif" sizes="16x16"> 
+    <link rel="stylesheet" href="stilus.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg " id="navbar">
+        <img src="kepek/timberpolis.png" alt="" sizes="16px">
+        <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#"><img src="kepek/fa.ico" alt=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"><img src="kepek/szamologep.ico" alt=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"><img src="kepek/telefon.ico" alt=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"><img src="kepek/haz.ico" alt=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"><img src="kepek/kocka.ico" alt=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#"><img src="kepek/kor.ico" alt=""></a>
+            </li>
+            
+  
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item text-white" href="#">Action</a>
+                  <a class="dropdown-item text-white" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item text-white" href="#">Something else here</a>
+                </div>
+              </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <section>
+          <div id="kobozo">
+            <form action="">
+               <h2>Farönk térfogat számító</h2>
+                <select name="" id="muvelet">
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+                <div class="div1 div"> 
+                    <h2>Térfogat (kéregmentes)</h2><br>
+                    <b id="terfogat">---</b>
+                    <span>m<sup>3</sup></span> 
+                </div>
+                <div class="div2 div">
+                     <h2> Középső átmérő</h2>    
+                     <input type="number" id="szam" placeholder="cm">
+                </div>
+                <div class="div3 div">
+                    <h2>Hosszuság</h2> 
+                     <h2>Mennyiség (db)</h2> 
+                    <input type="number" id="hosz" placeholder="m">
+                    <input type="number" id="menyiseg" placeholder="1">
+                </div>
+                <button type="button" id="szamol">Számol</button>
+               
+            </form>  
+        </div>
+        
+      </section>
+</body>
+
+</html>
